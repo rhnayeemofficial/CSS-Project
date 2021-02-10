@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/* for mobile */
+[class*="col-"]{
+    width: 100%;
+}
+
+/* navbar design start */
+.navbar{
+        background-color: teal;
+    
+        padding: 1% 7% ;
+        text-align: center;
+}
+.navbar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+.navbar-menu{
+    
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.navbar-menu a{
+    background-color: turquoise;
+    border-radius: 10px;
+    margin: 7px 0px ;
+    padding: 10px;
+}
+.navbar-menu a:hover{
+    background-color: violet;
+}
+.navbar::after{
+    content:'' ;
+    display: table;
+    clear: both;
+
+}
+
+/* navbar design end */
+
+
+/* About me design start */
+
+.one{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin: 15px;
+    background-color: mediumpurple;
+}
+
+h3{
+    text-align: center;
+    background-color: mistyrose;
+}
+ h3:hover{
+     background-color: seagreen;
+ }
+
+ .about-me img{
+ padding-left: 400px;
+ }
+.aboutme{
+    padding: 1px;
+    margin: 3px;
+    background-color: mediumvioletred;
+}
+.aboutme:hover{
+    background-color: rgb(236, 158, 158);
+}
+
+.two{
+    font-family: 'Satisfy', cursive;
+    padding: 3px;
+    margin: 5px;
+    background: snow;
+}
+/* About me design end */
